@@ -16,6 +16,12 @@
 		FA5574662BD798A900738114 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5574652BD798A900738114 /* SignInViewController.swift */; };
 		FA5574682BD7997900738114 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5574672BD7997900738114 /* SignInView.swift */; };
 		FA55746A2BD7998900738114 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5574692BD7998900738114 /* SignInModel.swift */; };
+		FAB305E62BD8F49100CCCAD4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */; };
+		FAB305E82BD8F63D00CCCAD4 /* TextViewWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */; };
+		FAB305EA2BD8F64800CCCAD4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E92BD8F64800CCCAD4 /* BaseView.swift */; };
+		FAB305ED2BD9E97B00CCCAD4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305EC2BD9E97B00CCCAD4 /* Theme.swift */; };
+		FAB305EF2BD9E9AB00CCCAD4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305EE2BD9E9AB00CCCAD4 /* Dimension.swift */; };
+		FAB305F12BD9E9CD00CCCAD4 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305F02BD9E9CD00CCCAD4 /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		FA5574652BD798A900738114 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		FA5574672BD7997900738114 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		FA5574692BD7998900738114 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWithTitle.swift; sourceTree = "<group>"; };
+		FAB305E92BD8F64800CCCAD4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		FAB305EC2BD9E97B00CCCAD4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FAB305EE2BD9E9AB00CCCAD4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		FAB305F02BD9E9CD00CCCAD4 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,7 @@
 		FA55744C2BD775DB00738114 /* HealthCareViewer */ = {
 			isa = PBXGroup;
 			children = (
+				FAB305E32BD8F35D00CCCAD4 /* Common */,
 				FA5574642BD793A600738114 /* Supports */,
 				FA5574632BD7939100738114 /* Controllers */,
 				FA5574622BD7938200738114 /* Views */,
@@ -127,6 +140,35 @@
 				FA55745B2BD775DD00738114 /* Info.plist */,
 			);
 			path = Supports;
+			sourceTree = "<group>";
+		};
+		FAB305E32BD8F35D00CCCAD4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAB305EB2BD9E96700CCCAD4 /* Style */,
+				FAB305E42BD8F36D00CCCAD4 /* Base */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAB305E42BD8F36D00CCCAD4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */,
+				FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */,
+				FAB305E92BD8F64800CCCAD4 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FAB305EB2BD9E96700CCCAD4 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				FAB305EC2BD9E97B00CCCAD4 /* Theme.swift */,
+				FAB305EE2BD9E9AB00CCCAD4 /* Dimension.swift */,
+				FAB305F02BD9E9CD00CCCAD4 /* Resource.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,11 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB305E82BD8F63D00CCCAD4 /* TextViewWithTitle.swift in Sources */,
 				FA55746A2BD7998900738114 /* SignInModel.swift in Sources */,
 				FA5574662BD798A900738114 /* SignInViewController.swift in Sources */,
 				FA5574522BD775DB00738114 /* ViewController.swift in Sources */,
 				FA55744E2BD775DB00738114 /* AppDelegate.swift in Sources */,
 				FA5574502BD775DB00738114 /* SceneDelegate.swift in Sources */,
+				FAB305EA2BD8F64800CCCAD4 /* BaseView.swift in Sources */,
+				FAB305ED2BD9E97B00CCCAD4 /* Theme.swift in Sources */,
+				FAB305E62BD8F49100CCCAD4 /* BaseViewController.swift in Sources */,
+				FAB305F12BD9E9CD00CCCAD4 /* Resource.swift in Sources */,
+				FAB305EF2BD9E9AB00CCCAD4 /* Dimension.swift in Sources */,
 				FA5574682BD7997900738114 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
