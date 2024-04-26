@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextViewWithTitle: BaseUIView {
+class TextFieldWithTitle: BaseUIView {
     
     // MARK: Properties
     

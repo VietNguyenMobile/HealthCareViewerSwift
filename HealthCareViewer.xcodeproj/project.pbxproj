@@ -17,11 +17,12 @@
 		FA5574682BD7997900738114 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5574672BD7997900738114 /* SignInView.swift */; };
 		FA55746A2BD7998900738114 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5574692BD7998900738114 /* SignInModel.swift */; };
 		FAB305E62BD8F49100CCCAD4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */; };
-		FAB305E82BD8F63D00CCCAD4 /* TextViewWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */; };
+		FAB305E82BD8F63D00CCCAD4 /* TextFieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E72BD8F63D00CCCAD4 /* TextFieldWithTitle.swift */; };
 		FAB305EA2BD8F64800CCCAD4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305E92BD8F64800CCCAD4 /* BaseView.swift */; };
 		FAB305ED2BD9E97B00CCCAD4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305EC2BD9E97B00CCCAD4 /* Theme.swift */; };
 		FAB305EF2BD9E9AB00CCCAD4 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305EE2BD9E9AB00CCCAD4 /* Dimension.swift */; };
 		FAB305F12BD9E9CD00CCCAD4 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305F02BD9E9CD00CCCAD4 /* Resource.swift */; };
+		FAB305F32BDA18B200CCCAD4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB305F22BDA18B200CCCAD4 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,11 +40,12 @@
 		FA5574672BD7997900738114 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		FA5574692BD7998900738114 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWithTitle.swift; sourceTree = "<group>"; };
+		FAB305E72BD8F63D00CCCAD4 /* TextFieldWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitle.swift; sourceTree = "<group>"; };
 		FAB305E92BD8F64800CCCAD4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		FAB305EC2BD9E97B00CCCAD4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		FAB305EE2BD9E9AB00CCCAD4 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
 		FAB305F02BD9E9CD00CCCAD4 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		FAB305F22BDA18B200CCCAD4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				FA5574512BD775DB00738114 /* ViewController.swift */,
 				FA5574652BD798A900738114 /* SignInViewController.swift */,
+				FAB305F22BDA18B200CCCAD4 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -155,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB305E52BD8F49100CCCAD4 /* BaseViewController.swift */,
-				FAB305E72BD8F63D00CCCAD4 /* TextViewWithTitle.swift */,
+				FAB305E72BD8F63D00CCCAD4 /* TextFieldWithTitle.swift */,
 				FAB305E92BD8F64800CCCAD4 /* BaseView.swift */,
 			);
 			path = Base;
@@ -285,7 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB305E82BD8F63D00CCCAD4 /* TextViewWithTitle.swift in Sources */,
+				FAB305F32BDA18B200CCCAD4 /* SignUpViewController.swift in Sources */,
+				FAB305E82BD8F63D00CCCAD4 /* TextFieldWithTitle.swift in Sources */,
 				FA55746A2BD7998900738114 /* SignInModel.swift in Sources */,
 				FA5574662BD798A900738114 /* SignInViewController.swift in Sources */,
 				FA5574522BD775DB00738114 /* ViewController.swift in Sources */,

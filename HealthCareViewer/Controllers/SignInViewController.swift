@@ -17,15 +17,15 @@ class SignInViewController: BaseViewController {
         return imageView
     }()
     
-    private let patientInputView : TextViewWithTitle = {
-       let view = TextViewWithTitle()
+    private let patientInputView : TextFieldWithTitle = {
+       let view = TextFieldWithTitle()
         view.title = Resource.Title.SignInAndSignUp.patientCodeTitle
         view.placeHolder = Resource.Title.SignInAndSignUp.patientCodePlaceHolder
         return view
     }()
     
-    private let passwordInputView: TextViewWithTitle = {
-        let view = TextViewWithTitle()
+    private let passwordInputView: TextFieldWithTitle = {
+        let view = TextFieldWithTitle()
         view.title = Resource.Title.SignInAndSignUp.passwordTitle
         view.placeHolder = Resource.Title.SignInAndSignUp.passwordPlaceholder
         view.isSecureTextEntry = true
@@ -53,6 +53,11 @@ class SignInViewController: BaseViewController {
         return button
     }()
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.isHidden = true
+    }
+    
     override func initialize() {
         super.initialize()
         setupViewLogoImageView()
@@ -62,6 +67,11 @@ class SignInViewController: BaseViewController {
         setupViewSignUpButton()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.isHidden = false
+    }
+    
     //MARK: UI Action
     
     @objc func signInButtonTapped() {
@@ -69,7 +79,7 @@ class SignInViewController: BaseViewController {
     }
     
     @objc func signUpButtontapped() {
-         print("Sign Up Tapped")
+        navigationController?.pushViewController(SignUpViewController(), animated: true)
     }
     
     // MARK: SetupView
