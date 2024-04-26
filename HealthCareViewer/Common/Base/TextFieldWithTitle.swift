@@ -29,6 +29,12 @@ class TextFieldWithTitle: BaseUIView {
         }
     }
     
+    public var textFieldInputView = UIView() {
+        didSet {
+            textField.inputView = textFieldInputView
+        }
+    }
+    
     // MARK: UI Element
     
     private let titleLabel: UILabel = {

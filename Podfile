@@ -6,6 +6,7 @@ target 'HealthCareViewer' do
   use_frameworks!
 
   pod 'SnapKit', '~> 5.7.0'
+  pod 'IQKeyboardManager'
 
   # Pods for HealthCareViewer
 

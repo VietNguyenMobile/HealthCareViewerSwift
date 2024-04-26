@@ -26,6 +26,13 @@ public class Resource {
             public static var patientCode = "Mã số bệnh nhân liên kết"
             public static var patientCodeSignUpPlaceHolder = "Mã số liên kết"
             public static var fullName = "Họ và tên"
+            public static var DOBTitle = "Ngày sinh"
+            public static var DOBPlaceHolder = "dd/mm/yyyy"
+            public static var addressTitle = "Địa chỉ"
+            public static var cityPlaceHolder = "Thành phố"
+            public static var districPlaceHolder = "Quận/Huyện"
+            public static var addressPlaceHolder = "Địa chỉ chỗ ở hiện tại (Số nhà, đường…)"
+            public static var nextButtonTitle = "Tiếp theo"
         }
         
         public class Home {

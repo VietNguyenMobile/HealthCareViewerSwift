@@ -79,6 +79,7 @@ public class Dimension {
         return 24 * self.widthScale
     }
     
+    /// Large Vertical Margin  = 24
     var largeVerticalMargin: CGFloat {
         return 24 * self.heightScale
     }
@@ -141,6 +142,7 @@ public class Dimension {
         return 291 * self.widthScale
     }
     
+    /// Default height button =  **42**
     var defaultHeightButton: CGFloat {
         return 42 * self.heightScale
     }
