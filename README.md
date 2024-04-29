@@ -4,8 +4,8 @@ link: https://www.youtube.com/playlist?list=PLT3UlF8Hrm4BKKqCWH5NFOXTcyH9_62Du
 
 <p align="center">
   <img src="docs/images/flash.png" width="200" />
-  <img src="docs/images/flah1.png" width="200" />
-  <img src="docs/images/flah2.png" width="200" />
+  <img src="docs/images/flash1.png" width="200" />
+  <img src="docs/images/flash2.png" width="200" />
 </p>
 
 Lập trình iOS - Swift
